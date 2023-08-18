@@ -1,3 +1,48 @@
+# auth-postgres-prisma-nextjs
+
+# 🚀 Simple Next.js 13 App Router starter kit that uses NextAuth.js for auth, Prisma as the ORM, and Vercel Postgres as a database. 🚀
+
+https://github.com/coding-to-music/auth-postgres-prisma-nextjs
+
+https://auth-postgres-prisma-nextjs.vercel.app
+
+From / By https://vercel.com/templates/next.js/prisma-postgres-auth-starter
+
+https://github.com/vercel/nextjs-postgres-auth-starter
+
+https://nextjs-postgres-auth.vercel.app/
+
+<!-- <div style="text-align:center;">
+  <img src="/images/chakra.jpg" alt="Image" />
+  <p><em>Chakra Component Library with Next.js</em></p>
+</div> -->
+
+## Node Environment:
+
+```java
+nvm use 18
+```
+
+## Environment variables:
+
+see `.env-example`
+
+```java
+
+```
+
+## GitHub
+
+```java
+git init
+git add .
+git remote remove origin
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:coding-to-music/auth-postgres-prisma-nextjs.git
+git push -u origin main
+```
+
 <p align="center">
   <a href="https://nextjs-postgres-auth.vercel.app/">
     <img src="/public/logo.png" height="96">

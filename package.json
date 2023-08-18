@@ -1,7 +1,11 @@
 {
+  "name": "auth-postgres-prisma-nextjs",
+  "version": "1.0.0",
+  "description": "",
   "private": true,
   "scripts": {
     "dev": "prisma generate && next dev",
+    "deploy": "git add . && git commit -m 'Build' && git push",
     "build": "prisma generate && prisma db push && next build",
     "start": "next start",
     "lint": "next lint"

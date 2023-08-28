@@ -5,6 +5,7 @@ import { Inter } from "next/font/google";
 import { Toaster } from "react-hot-toast";
 import AuthStatus from "@/components/auth-status";
 import { Suspense } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -41,6 +42,7 @@ export default async function RootLayout({
           <AuthStatus />
         </Suspense>
         {children}
+        <Analytics />
       </body>
     </html>
   );
